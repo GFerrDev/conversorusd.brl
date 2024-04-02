@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão Toggle</title>
+</head>
+
+<body>
+
+    <input type="checkbox" id="toggle" name="#" class="toggle-btn">
+    <label for="toggle" class="toggle-lable"></label>
+
+    <h1>Conversor R$ > U$D</h1>
+
+    <label for="cot">Cotação<input type="text" placeholder="R$" id="cot">
+    </label>
+    <label for="rs">Real<input type="text" placeholder="R$" id="rs" oninput="convercao()"></label>
+    <label for="usd">Dolar
+    <input type="text" placeholder="U$D" id="usd" oninput="convercaoUsd()"></label>
+    <iframe src="https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/consultas/clearing-de-cambio/indicadores/taxas-de-cambio-referencial/#:~:text=5%2C0067%20(R%24%2FUS%24)" frameborder="0"></iframe>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
